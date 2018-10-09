@@ -1,0 +1,198 @@
+body {
+    background-image: url("paper.jpg");
+}
+#header {
+    background: #fff;
+    box-shadow: 0px 2px #afafaf;
+}
+#nametag {
+    background: rgb(255, 187, 0);
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 28;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#sidelinks {
+    color: rgb(155, 155, 155);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+/* unvisited link */
+a:link {
+    color: rgb(114, 114, 114);
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: rgb(59, 59, 59);
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: rgb(255, 187, 0);;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: rgb(255, 227, 149);;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+}
+
+#aboutbox {
+    background: #fff;
+    margin-top: 40px;
+    border: 1px solid #afafaf;
+    padding: 40px;
+    margin-bottom: 60px;
+}
+#aboutme {
+    font-size: 28;
+    color:  rgb(255, 187, 0);;
+    box-shadow: 0px 2px #afafaf;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+#mypic {
+    float: left;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+#bio {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2;
+    margin-top: 30px;
+    font-size: 16px;
+}
+#footer {
+    background: rgb(46, 46, 46);
+    box-shadow: 0px -5px rgb(255, 187, 0);
+    color: #fff;
+    padding-top: 40px;
+    text-align: center;
+}
+#hangman {
+    height: 150px;
+    width: 150px;
+    margin-top: 30px;
+    position: relative;
+}
+#hangmantag {
+    background: rgb(255, 187, 0);
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 150px;
+    position: absolute;
+    top: 60%;
+}
+#rpg {
+    height: 150px;
+    width: 150px;
+    margin-top: 30px;
+    position: relative;
+}
+#rpgtag {
+    background: rgb(255, 187, 0);
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 150px;
+    position: absolute;
+    top: 60%;
+}
+#trivia {
+    height: 150px;
+    width: 150px;
+    margin-top: 30px;
+    position: relative;
+}
+#triviatag {
+    background: rgb(255, 187, 0);
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 150px;
+    position: absolute;
+    top: 60%;
+}
+#rutgers {
+    height: 150px;
+    width: 150px;
+    margin-top: 30px;
+    position: relative;
+}
+#rutgerstag {
+    background: rgb(255, 187, 0);
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 150px;
+    position: absolute;
+    top: 60%;
+}
+#rps {
+    height: 150px;
+    width: 150px;
+    margin-top: 30px;
+    position: relative;
+}
+#rpstag {
+    background: rgb(255, 187, 0);
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 150px;
+    position: absolute;
+    top: 60%;
+}
+#contactarea {
+    padding-top: 30px;
+}
+#name {
+    width: 100%;
+    margin-bottom: 15px;
+}
+#email {
+    width: 100%;
+    margin-bottom: 15px;
+}
+#message {
+    width: 100%;
+    margin-bottom: 15px;
+}
+button {
+    background-color: rgb(255, 187, 0);
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:normal;
+    font-size: 16px;
+}
