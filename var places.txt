@@ -1,0 +1,30 @@
+var places = [
+            "roman empire"
+            ,
+            "atlantis"
+            ,
+            "prussia"
+            ,
+            "czechoslovakia"
+            ,
+            "soviet union"
+            ,
+            "british empire"
+            ,
+            "spanish empire"
+            ,
+            "french empire"
+            ,
+            "persia"
+            ,
+            "ottoman empire"
+            ,
+            "ussr"
+            ,
+            "lighthouse of alexandria"
+            ,
+            "colossus of rhodes"
+            ,
+            "austria hungary"
+
+            ];

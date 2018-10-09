@@ -1,0 +1,20 @@
+if (letterguessed) === (targetletter)
+makes (triesleft) === 10
+(score) + 1
+
+else
+(triesleft -1)
+
+if (triesleft =0)
+makes (triesleft =0)
+(clear lettersguessed)
+(loses) + 1
+
+var guesses =[];
+
+guesses.push(guess)
+
+
+handle keypress
+
+put key in a variable 

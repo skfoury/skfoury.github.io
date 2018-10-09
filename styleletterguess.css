@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Special Elite', cursive;
+}
+#title {
+    color: white;
+    font-family: 'Special Elite', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+#subtitle {
+    color: white;
+    font-family: 'Special Elite', cursive;
+    font-size: 20px;
+    text-align: center;
+}
+div {
+    text-align: center;
+}
