@@ -2,7 +2,7 @@ body {
     background-image: url("paper.jpg");
 }
 #header {
-    background: #fff;
+    background: rgba(255, 255, 255, 0.5);
     box-shadow: 0px 2px #afafaf;
 }
 #nametag {
@@ -57,6 +57,7 @@ a {
     border: 1px solid #afafaf;
     padding: 40px;
     margin-bottom: 60px;
+    background: rgba(255, 255, 255, 0.5);
 }
 #aboutme {
     font-size: 28;
@@ -195,4 +196,11 @@ label {
     font-family: Arial, Helvetica, sans-serif;
     font-weight:normal;
     font-size: 16px;
+}
+#portfolioelement {
+    background: #fff;
+    border: 1px solid #afafaf;
+}
+#accountlink {
+    font-size: 30px;
 }
