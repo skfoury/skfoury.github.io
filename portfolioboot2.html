@@ -1,109 +1,156 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-        crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-    <div class="row" id="header">
-        <div class="col-md-2"></div>
-        <a href="index.html">
-            <div class="col-md-2" id="nametag">Sam Kfoury</div>
-        </a>
-        <div class="col-md-4"></div>
-        <div class="col-md-2" id="sidelinks">
-            | <a href="index.html">About</a> | 
-            <a href="portfolioboot2.html">Portfolio</a> | 
-            <a href="portfolioboot3.html">Links</a> |
-        </div>
-        <div class="col-md-2"></div>
+  <div class="row" id="header">
+    <div class="col-md-2"></div>
+    <a href="index.html">
+      <div class="col-md-2" id="nametag">Sam Kfoury</div>
+    </a>
+    <div class="col-md-4"></div>
+    <div class="col-md-2" id="sidelinks">
+      | <a href="index.html">About</a> |
+      <a href="portfolioboot2.html">Portfolio</a> |
+      <a href="portfolioboot3.html">Links</a> |
     </div>
-    <div class="container">
+    <div class="col-md-2"></div>
+  </div>
+  <div class="container">
     <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-8" id="aboutbox">
-            <div id="aboutme">Portfolio</div>
-            <div class="row">
-                <div class="card text-center" id="portfolioelement">
-                    <div class="card-header">
-                      <ul class="nav nav-pills card-header-pills">
-                        <li class="nav-item">
-                          <a class="nav-link active" href="https://bmccaw.github.io/Project_1/">Link</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="https://github.com/bmccaw/Project_1">GitHub Code</a>
-                          </li>
-                      </ul>
-                    </div>
-                    <div class="card-body">
-                      <h1 class="card-title">Planet Exploration</h1>
-                      <img src="planetexplore.png" alt="Planets" style="width:600px">
-                    </div>
-                    <br>
-                  </div>
-                  <br>
-                  <div class="card text-center" id="portfolioelement">
-                    <div class="card-header">
-                      <ul class="nav nav-pills card-header-pills">
-                        <li class="nav-item">
-                          <a class="nav-link active" href="https://skfoury.github.io/crystal-game-samk/">Link</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="https://github.com/skfoury/crystal-game-samk/">GitHub Code</a>
-                          </li>
-                      </ul>
-                    </div>
-                    <div class="card-body">
-                      <h1 class="card-title">Crystals Game</h1>
-                      <img src="crystals.png" alt="Crystals" style="width:600px">
-                    </div>
-                    <br>
-                  </div>
-                  <br>
-                  <div class="card text-center" id="portfolioelement">
-                    <div class="card-header">
-                      <ul class="nav nav-pills card-header-pills">
-                        <li class="nav-item">
-                          <a class="nav-link active" href="https://skfoury.github.io/letter-guess-samk/">Link</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="https://github.com/skfoury/letter-guess-samk/">GitHub Code</a>
-                          </li>
-                      </ul>
-                    </div>
-                    <div class="card-body">
-                      <h1 class="card-title">Letter Guess Game</h1>
-                      <img src="leterguess.png" alt="Letterguess" style="width:600px">
-                    </div>
-                    <br>
-                  </div>
-                  <br>
-                  <div class="card text-center" id="portfolioelement">
-                    <div class="card-header">
-                      <ul class="nav nav-pills card-header-pills">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="https://github.com/skfoury/liri-node-app">GitHub Code</a>
-                          </li>
-                      </ul>
-                    </div>
-                    <div class="card-body">
-                      <h1 class="card-title">LIRI Bot</h1>
-                      <img src="liribot.png" alt="Letterguess" style="width:600px">
-                    </div>
-                    <br>
-                  </div>
+      <div class="col-md-2"></div>
+      <div class="col-md-8" id="aboutbox">
+        <div id="aboutme">Portfolio</div>
+        <div class="row">
+          <div class="card text-center" id="portfolioelement">
+            <div class="card-header">
+              <ul class="nav nav-pills card-header-pills">
+                <li class="nav-item">
+                  <a class="nav-link active" href="https://bmccaw.github.io/Project_1/">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="https://github.com/bmccaw/Project_1">GitHub Code</a>
+                </li>
+              </ul>
             </div>
+            <div class="card-body">
+              <h1 class="card-title">Planet Exploration</h1>
+              <H3 id="projecttag">Project 1</H3>
+              <img src="planetexplore.png" alt="Planets" style="width:600px">
+              <button data-toggle="collapse" data-target="#aboutplanet">About this</button>
+
+              <div id="aboutplanet" class="collapse">
+              An interactive application which allows you to explore the planets of the Solar System.
+              </div>
+            </div>
+            <br>
+          </div>
+          <br>
+          <div class="card text-center" id="portfolioelement">
+            <div class="card-header">
+              <ul class="nav nav-pills card-header-pills">
+                <li class="nav-item">
+                  <a class="nav-link active" href="https://calm-reef-18793.herokuapp.com/">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="https://github.com/dancrump1/PossibleErrors">GitHub Code</a>
+                </li>
+              </ul>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title">FetPinder</h1>
+              <H3 id="projecttag">Project 2</H3>
+              <img src="fetpinder.png" alt="Fetpinder" style="width:600px">
+              <button data-toggle="collapse" data-target="#aboutfet">About this</button>
+
+              <div id="aboutfet" class="collapse">
+              An application which can locate pets for adoption based off a comprehensive search system.
+              </div>
+            </div>
+            <br>
+          </div>
+          <br>
+          <div class="card text-center" id="portfolioelement">
+            <div class="card-header">
+              <ul class="nav nav-pills card-header-pills">
+                <li class="nav-item">
+                  <a class="nav-link active" href="https://skfoury.github.io/crystal-game-samk/">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="https://github.com/skfoury/crystal-game-samk/">GitHub Code</a>
+                </li>
+              </ul>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title">Crystals Game</h1>
+              <img src="crystals.png" alt="Crystals" style="width:600px">
+              <button data-toggle="collapse" data-target="#aboutcrys">About this</button>
+
+              <div id="aboutcrys" class="collapse">
+              Try to guess the values of the crystals in order to reach the target score.
+              </div>
+            </div>
+            <br>
+          </div>
+          <br>
+          <div class="card text-center" id="portfolioelement">
+            <div class="card-header">
+              <ul class="nav nav-pills card-header-pills">
+                <li class="nav-item">
+                  <a class="nav-link active" href="https://skfoury.github.io/letter-guess-samk/">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="https://github.com/skfoury/letter-guess-samk/">GitHub Code</a>
+                </li>
+              </ul>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title">Letter Guess Game</h1>
+              <img src="leterguess.png" alt="Letterguess" style="width:600px">
+              <button data-toggle="collapse" data-target="#aboutlet">About this</button>
+
+              <div id="aboutlet" class="collapse">
+              Try to guess the letter that the computer is thinking of.
+              </div>
+            </div>
+            <br>
+          </div>
+          <br>
+          <div class="card text-center" id="portfolioelement">
+            <div class="card-header">
+              <ul class="nav nav-pills card-header-pills">
+                <li class="nav-item">
+                  <a class="nav-link active" href="https://github.com/skfoury/liri-node-app">GitHub Code</a>
+                </li>
+              </ul>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title">LIRI Bot</h1>
+              <img src="liribot.png" alt="Letterguess" style="width:600px">
+              <button data-toggle="collapse" data-target="#aboutliri">About this</button>
+
+              <div id="aboutliri" class="collapse">
+              A Node-based bot where you can search for musical artists, songs, and movies.
+              </div>
+            </div>
+            <br>
+          </div>
         </div>
-            <div class="col-md-2"></div>
-        </div>
+      </div>
+      <div class="col-md-2"></div>
     </div>
-        <footer class="footer" id="footer">
-            <div class="container">
-                <span class="text-muted">Copywrite ©</span>
-            </div>
-        </footer>
+  </div>
+  <footer class="footer" id="footer">
+    <div class="container">
+      <span class="text-muted">Copywrite ©</span>
+    </div>
+  </footer>
 </body>
 
 </html>
